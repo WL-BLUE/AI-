@@ -1,0 +1,270 @@
+2026-04-30 01:27:03 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:27:03 | ERROR | base:run:29 | 分析失败 [regression]: RegressionAnalyzer._fit_and_evaluate() got multiple values for argument 'model_type'
+2026-04-30 01:27:03 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:27:03 | ERROR | base:run:29 | 分析失败 [regression]: RegressionAnalyzer._fit_and_evaluate() got multiple values for argument 'model_type'
+2026-04-30 01:27:03 | INFO | base:run:21 | 开始分析: clustering
+2026-04-30 01:27:03 | ERROR | base:run:29 | 分析失败 [clustering]: ClusteringAnalyzer._cluster() got multiple values for argument 'algorithm'
+2026-04-30 01:27:03 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:27:03 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:27:03 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:27:03 | ERROR | base:run:29 | 分析失败 [customer_analyzer]: Bin labels must be one fewer than the number of bin edges
+2026-04-30 01:27:04 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:27:04 | INFO | base:run:24 | 分析完成: inventory_optimizer
+2026-04-30 01:27:04 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:27:04 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:27:04 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:27:04 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:27:04 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:27:04 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:27:04 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:27:04 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:27:04 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:27:04 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:27:04 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:27:04 | INFO | ai_cleaner:ai_detect_anomalies:22 | 使用AI算法检测异常数据
+2026-04-30 01:27:04 | INFO | ai_cleaner:ai_detect_anomalies:40 | AI异常检测完成: 发现 5 个异常 (5.00%)
+2026-04-30 01:27:04 | INFO | ai_cleaner:ai_impute_missing:52 | 使用AI算法智能填充缺失值
+2026-04-30 01:27:04 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:27:04 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:27:04 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:27:04 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:27:04 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:27:04 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:27:04 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:27:04 | INFO | inventory_collector:_generate_sample_data:65 | 生成库存样本数据: 200 条记录
+2026-04-30 01:27:04 | INFO | customer_collector:_generate_sample_data:59 | 生成客户样本数据: 500 条记录
+2026-04-30 01:27:04 | INFO | generator:generate:29 | 开始生成报告, 模板: sales, 格式: html
+2026-04-30 01:27:04 | INFO | generator:generate:42 | 报告已生成: C:\Users\31517\AppData\Local\Temp\pytest-of-31517\pytest-0\test_generate_report0\report_sales_20260430_012704.html
+2026-04-30 01:27:18 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:27:18 | ERROR | base:run:29 | 分析失败 [regression]: RegressionAnalyzer._fit_and_evaluate() got multiple values for argument 'model_type'
+2026-04-30 01:29:05 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:29:05 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.0344, RMSE=1431.2121
+2026-04-30 01:29:05 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:29:05 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:29:06 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.4248, RMSE=1679.6949
+2026-04-30 01:29:06 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:29:06 | INFO | base:run:21 | 开始分析: clustering
+2026-04-30 01:29:06 | INFO | clustering:_cluster:116 | 聚类分析完成: 算法=kmeans, 簇数=3, 轮廓系数=0.3204
+2026-04-30 01:29:06 | INFO | base:run:24 | 分析完成: clustering
+2026-04-30 01:29:06 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:29:06 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:29:06 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:29:06 | ERROR | base:run:29 | 分析失败 [customer_analyzer]: Bin labels must be one fewer than the number of bin edges
+2026-04-30 01:29:07 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:29:07 | INFO | base:run:24 | 分析完成: inventory_optimizer
+2026-04-30 01:29:07 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:29:07 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:29:07 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:29:07 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:29:07 | INFO | cleaner:remove_duplicates:48 | 移除重复记录: 5
+2026-04-30 01:29:07 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:29:07 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:29:07 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:29:07 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:29:07 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:29:07 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:29:07 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:29:07 | INFO | ai_cleaner:ai_detect_anomalies:22 | 使用AI算法检测异常数据
+2026-04-30 01:29:07 | INFO | ai_cleaner:ai_detect_anomalies:40 | AI异常检测完成: 发现 5 个异常 (5.00%)
+2026-04-30 01:29:07 | INFO | ai_cleaner:ai_impute_missing:52 | 使用AI算法智能填充缺失值
+2026-04-30 01:29:07 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:29:07 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:29:07 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:29:07 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:29:07 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:29:07 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:29:07 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:29:07 | INFO | inventory_collector:_generate_sample_data:65 | 生成库存样本数据: 200 条记录
+2026-04-30 01:29:07 | INFO | customer_collector:_generate_sample_data:59 | 生成客户样本数据: 500 条记录
+2026-04-30 01:29:07 | INFO | generator:generate:29 | 开始生成报告, 模板: sales, 格式: html
+2026-04-30 01:29:07 | INFO | generator:generate:42 | 报告已生成: C:\Users\31517\AppData\Local\Temp\pytest-of-31517\pytest-1\test_generate_report0\report_sales_20260430_012907.html
+2026-04-30 01:29:15 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:29:15 | ERROR | base:run:29 | 分析失败 [customer_analyzer]: Bin labels must be one fewer than the number of bin edges
+2026-04-30 01:30:00 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:30:00 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.0344, RMSE=1431.2121
+2026-04-30 01:30:00 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:30:00 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:30:00 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.4248, RMSE=1679.6949
+2026-04-30 01:30:00 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:30:00 | INFO | base:run:21 | 开始分析: clustering
+2026-04-30 01:30:01 | INFO | clustering:_cluster:116 | 聚类分析完成: 算法=kmeans, 簇数=3, 轮廓系数=0.3204
+2026-04-30 01:30:01 | INFO | base:run:24 | 分析完成: clustering
+2026-04-30 01:30:01 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:30:01 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:30:01 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:30:01 | ERROR | base:run:29 | 分析失败 [customer_analyzer]: Cannot convert non-finite values (NA or inf) to integer
+2026-04-30 01:30:01 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:30:01 | INFO | base:run:24 | 分析完成: inventory_optimizer
+2026-04-30 01:30:01 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:30:01 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:01 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:30:01 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:30:01 | INFO | cleaner:remove_duplicates:48 | 移除重复记录: 5
+2026-04-30 01:30:01 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:01 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:30:01 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:01 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:30:01 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:30:01 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:30:01 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:30:01 | INFO | ai_cleaner:ai_detect_anomalies:22 | 使用AI算法检测异常数据
+2026-04-30 01:30:02 | INFO | ai_cleaner:ai_detect_anomalies:40 | AI异常检测完成: 发现 5 个异常 (5.00%)
+2026-04-30 01:30:02 | INFO | ai_cleaner:ai_impute_missing:52 | 使用AI算法智能填充缺失值
+2026-04-30 01:30:02 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:02 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:30:02 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:02 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:30:02 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:30:02 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:02 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:30:02 | INFO | inventory_collector:_generate_sample_data:65 | 生成库存样本数据: 200 条记录
+2026-04-30 01:30:02 | INFO | customer_collector:_generate_sample_data:59 | 生成客户样本数据: 500 条记录
+2026-04-30 01:30:02 | INFO | generator:generate:29 | 开始生成报告, 模板: sales, 格式: html
+2026-04-30 01:30:02 | INFO | generator:generate:42 | 报告已生成: C:\Users\31517\AppData\Local\Temp\pytest-of-31517\pytest-2\test_generate_report0\report_sales_20260430_013002.html
+2026-04-30 01:30:11 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:30:11 | ERROR | base:run:29 | 分析失败 [customer_analyzer]: Cannot convert non-finite values (NA or inf) to integer
+2026-04-30 01:30:46 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:30:46 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.0344, RMSE=1431.2121
+2026-04-30 01:30:46 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:30:46 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:30:47 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.4248, RMSE=1679.6949
+2026-04-30 01:30:47 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:30:47 | INFO | base:run:21 | 开始分析: clustering
+2026-04-30 01:30:47 | INFO | clustering:_cluster:116 | 聚类分析完成: 算法=kmeans, 簇数=3, 轮廓系数=0.3204
+2026-04-30 01:30:47 | INFO | base:run:24 | 分析完成: clustering
+2026-04-30 01:30:47 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:30:47 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:30:47 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:30:48 | INFO | base:run:24 | 分析完成: customer_analyzer
+2026-04-30 01:30:48 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:30:48 | INFO | base:run:24 | 分析完成: inventory_optimizer
+2026-04-30 01:30:48 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:30:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:48 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:30:48 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:30:48 | INFO | cleaner:remove_duplicates:48 | 移除重复记录: 5
+2026-04-30 01:30:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:48 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:30:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:30:48 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:30:48 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:30:48 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:30:48 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:30:48 | INFO | ai_cleaner:ai_detect_anomalies:22 | 使用AI算法检测异常数据
+2026-04-30 01:30:48 | INFO | ai_cleaner:ai_detect_anomalies:40 | AI异常检测完成: 发现 5 个异常 (5.00%)
+2026-04-30 01:30:48 | INFO | ai_cleaner:ai_impute_missing:52 | 使用AI算法智能填充缺失值
+2026-04-30 01:30:48 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:48 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:30:48 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:48 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:30:48 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:30:48 | INFO | sales_collector:_generate_sample_data:79 | 生成销售样本数据: 731 条记录
+2026-04-30 01:30:48 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:30:48 | INFO | inventory_collector:_generate_sample_data:65 | 生成库存样本数据: 200 条记录
+2026-04-30 01:30:48 | INFO | customer_collector:_generate_sample_data:59 | 生成客户样本数据: 500 条记录
+2026-04-30 01:30:48 | INFO | generator:generate:29 | 开始生成报告, 模板: sales, 格式: html
+2026-04-30 01:30:48 | INFO | generator:generate:42 | 报告已生成: C:\Users\31517\AppData\Local\Temp\pytest-of-31517\pytest-3\test_generate_report0\report_sales_20260430_013048.html
+2026-04-30 01:31:19 | INFO | pipeline:run_full_analysis:132 | 开始全量分析流水线
+2026-04-30 01:31:19 | INFO | pipeline:collect_data:51 | 开始数据采集: all
+2026-04-30 01:31:19 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:32:19 | INFO | pipeline:run_full_analysis:132 | 开始全量分析流水线
+2026-04-30 01:32:19 | INFO | pipeline:collect_data:51 | 开始数据采集: all
+2026-04-30 01:32:19 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:32:19 | WARNING | sales_collector:fetch:28 | 数据源获取失败，使用样本数据: 数据源未找到: ./data/sample/sales_data.csv
+2026-04-30 01:32:19 | INFO | sales_collector:_generate_sample_data:81 | 生成销售样本数据: 731 条记录
+2026-04-30 01:32:19 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:32:19 | INFO | base:collect:27 | 开始采集数据源: inventory
+2026-04-30 01:32:19 | WARNING | inventory_collector:fetch:24 | 数据源获取失败，使用样本数据: 数据源未找到: ./data/sample/inventory_data.csv
+2026-04-30 01:32:19 | INFO | inventory_collector:_generate_sample_data:67 | 生成库存样本数据: 200 条记录
+2026-04-30 01:32:19 | INFO | base:collect:31 | 数据采集完成: inventory, 记录数: 200
+2026-04-30 01:32:19 | INFO | base:collect:27 | 开始采集数据源: customer
+2026-04-30 01:32:19 | WARNING | customer_collector:fetch:24 | 数据源获取失败，使用样本数据: 数据源未找到: ./data/sample/customer_data.csv
+2026-04-30 01:32:19 | INFO | customer_collector:_generate_sample_data:61 | 生成客户样本数据: 500 条记录
+2026-04-30 01:32:19 | INFO | base:collect:31 | 数据采集完成: customer, 记录数: 500
+2026-04-30 01:32:19 | INFO | pipeline:clean_data:69 | 开始数据清洗: all, AI模式: False
+2026-04-30 01:32:19 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 731
+2026-04-30 01:32:19 | INFO | cleaner:handle_outliers:117 | 列 'total_amount' 处理异常值: 6 个
+2026-04-30 01:32:19 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 731, 移除: 0
+2026-04-30 01:32:19 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:32:19 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 200
+2026-04-30 01:32:19 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 200, 移除: 0
+2026-04-30 01:32:19 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:32:19 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 500
+2026-04-30 01:32:19 | INFO | cleaner:handle_outliers:117 | 列 'total_spent' 处理异常值: 29 个
+2026-04-30 01:32:19 | INFO | cleaner:handle_outliers:117 | 列 'churn_probability' 处理异常值: 2 个
+2026-04-30 01:32:19 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 500, 移除: 0
+2026-04-30 01:32:19 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:32:19 | INFO | pipeline:analyze_sales:105 | 开始销售分析
+2026-04-30 01:32:19 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:32:19 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:32:19 | INFO | pipeline:analyze_customer:115 | 开始客户分析
+2026-04-30 01:32:19 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:32:19 | INFO | base:run:24 | 分析完成: customer_analyzer
+2026-04-30 01:32:19 | INFO | pipeline:analyze_inventory:125 | 开始库存分析
+2026-04-30 01:32:19 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:32:19 | ERROR | base:run:29 | 分析失败 [inventory_optimizer]: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2026-04-30 01:32:19 | ERROR | pipeline:run_full_analysis:157 | 库存分析失败: inventory_optimizer 分析失败: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2026-04-30 01:32:19 | INFO | pipeline:run_full_analysis:161 | 全量分析流水线完成
+2026-04-30 01:32:19 | INFO | generator:generate:29 | 开始生成报告, 模板: comprehensive, 格式: html
+2026-04-30 01:32:19 | INFO | generator:generate:42 | 报告已生成: data\reports\report_comprehensive_20260430_013219.html
+2026-04-30 01:32:19 | INFO | dashboard:build_comprehensive_dashboard:137 | 构建综合仪表盘
+2026-04-30 01:32:19 | INFO | dashboard:build_sales_dashboard:32 | 构建销售仪表盘
+2026-04-30 01:32:20 | INFO | chart_builder:_save_fig:38 | 图表已保存: data\reports\charts\sales_trend.png
+2026-04-30 01:32:20 | INFO | chart_builder:_save_fig:38 | 图表已保存: data\reports\charts\category_pie.png
+2026-04-30 01:32:21 | INFO | chart_builder:_save_fig:38 | 图表已保存: data\reports\charts\channel_bar.png
+2026-04-30 01:32:21 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\sales_heatmap.png
+2026-04-30 01:32:21 | ERROR | chart_builder:sales_forecast_chart:84 | 销售预测图生成失败: 'predicted_sales'
+2026-04-30 01:32:21 | WARNING | dashboard:build_sales_dashboard:69 | 销售预测图生成失败: 销售预测图生成失败: 'predicted_sales'
+2026-04-30 01:32:21 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\correlation_heatmap.png
+2026-04-30 01:32:21 | INFO | dashboard:build_sales_dashboard:78 | 销售仪表盘构建完成, 生成5个图表
+2026-04-30 01:32:21 | INFO | dashboard:build_customer_dashboard:82 | 构建客户仪表盘
+2026-04-30 01:32:22 | INFO | chart_builder:_save_fig:38 | 图表已保存: data\reports\charts\customer_segment.png
+2026-04-30 01:32:22 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\customer_feature_heatmap.png
+2026-04-30 01:32:22 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\customer_feature_heatmap.png
+2026-04-30 01:32:22 | INFO | dashboard:build_customer_dashboard:105 | 客户仪表盘构建完成, 生成3个图表
+2026-04-30 01:32:22 | INFO | dashboard:build_inventory_dashboard:109 | 构建库存仪表盘
+2026-04-30 01:32:23 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\inventory_heatmap.png
+2026-04-30 01:32:23 | INFO | heatmap:_save_fig:32 | 热力图已保存: data\reports\charts\correlation_heatmap.png
+2026-04-30 01:32:23 | INFO | dashboard:build_inventory_dashboard:133 | 库存仪表盘构建完成, 生成2个图表
+2026-04-30 01:32:23 | INFO | dashboard:build_comprehensive_dashboard:152 | 综合仪表盘构建完成, 共生成8个图表
+2026-04-30 01:32:47 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:32:47 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.0344, RMSE=1431.2121
+2026-04-30 01:32:47 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:32:47 | INFO | base:run:21 | 开始分析: regression
+2026-04-30 01:32:48 | INFO | regression:_fit_and_evaluate:100 | 回归分析完成: R²=-0.4248, RMSE=1679.6949
+2026-04-30 01:32:48 | INFO | base:run:24 | 分析完成: regression
+2026-04-30 01:32:48 | INFO | base:run:21 | 开始分析: clustering
+2026-04-30 01:32:48 | INFO | clustering:_cluster:116 | 聚类分析完成: 算法=kmeans, 簇数=3, 轮廓系数=0.3204
+2026-04-30 01:32:48 | INFO | base:run:24 | 分析完成: clustering
+2026-04-30 01:32:48 | INFO | base:run:21 | 开始分析: sales_predictor
+2026-04-30 01:32:48 | INFO | base:run:24 | 分析完成: sales_predictor
+2026-04-30 01:32:48 | INFO | base:run:21 | 开始分析: customer_analyzer
+2026-04-30 01:32:48 | INFO | base:run:24 | 分析完成: customer_analyzer
+2026-04-30 01:32:48 | INFO | base:run:21 | 开始分析: inventory_optimizer
+2026-04-30 01:32:48 | INFO | base:run:24 | 分析完成: inventory_optimizer
+2026-04-30 01:32:48 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:32:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:32:48 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:32:48 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:32:48 | INFO | cleaner:remove_duplicates:48 | 移除重复记录: 5
+2026-04-30 01:32:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:32:48 | INFO | cleaner:clean:19 | 开始数据清洗, 原始记录数: 100
+2026-04-30 01:32:48 | INFO | cleaner:handle_missing_values:60 | 处理缺失值, 总计: 33, 策略: auto
+2026-04-30 01:32:48 | INFO | cleaner:handle_outliers:117 | 列 'value' 处理异常值: 3 个
+2026-04-30 01:32:48 | INFO | cleaner:clean:33 | 数据清洗完成, 最终记录数: 100, 移除: 0
+2026-04-30 01:32:48 | INFO | validators:validate:34 | 数据验证完成: 通过, 检查项: 2
+2026-04-30 01:32:48 | INFO | validators:validate:34 | 数据验证完成: 未通过, 检查项: 3
+2026-04-30 01:32:48 | INFO | ai_cleaner:ai_detect_anomalies:22 | 使用AI算法检测异常数据
+2026-04-30 01:32:49 | INFO | ai_cleaner:ai_detect_anomalies:40 | AI异常检测完成: 发现 5 个异常 (5.00%)
+2026-04-30 01:32:49 | INFO | ai_cleaner:ai_impute_missing:52 | 使用AI算法智能填充缺失值
+2026-04-30 01:32:49 | INFO | sales_collector:_generate_sample_data:81 | 生成销售样本数据: 731 条记录
+2026-04-30 01:32:49 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:32:49 | INFO | sales_collector:_generate_sample_data:81 | 生成销售样本数据: 731 条记录
+2026-04-30 01:32:49 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:32:49 | INFO | base:collect:27 | 开始采集数据源: sales
+2026-04-30 01:32:49 | INFO | sales_collector:_generate_sample_data:81 | 生成销售样本数据: 731 条记录
+2026-04-30 01:32:49 | INFO | base:collect:31 | 数据采集完成: sales, 记录数: 731
+2026-04-30 01:32:49 | INFO | inventory_collector:_generate_sample_data:67 | 生成库存样本数据: 200 条记录
+2026-04-30 01:32:49 | INFO | customer_collector:_generate_sample_data:61 | 生成客户样本数据: 500 条记录
+2026-04-30 01:32:49 | INFO | generator:generate:29 | 开始生成报告, 模板: sales, 格式: html
+2026-04-30 01:32:49 | INFO | generator:generate:42 | 报告已生成: C:\Users\31517\AppData\Local\Temp\pytest-of-31517\pytest-4\test_generate_report0\report_sales_20260430_013249.html
